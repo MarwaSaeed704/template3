@@ -1,0 +1,176 @@
+/* 
+
+    1-common style
+    2-general style
+    3-sections
+        3.0-section header
+        3.1-section home
+        3.2-section about
+        3.3-section services
+        3.4-section portfolio
+        3.5-section blog
+        3.6-section team
+        3.7-section pricing
+        3.8-section contact us
+        3.9-section footer
+
+
+
+*/
+
+
+
+/*  1-common style 
+
+        -container 
+        -section header
+        -hover effect 1(from bottom to top)
+        -button style
+        -overlay
+        -border radius
+
+
+*/
+
+
+
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .6);
+    position: absolute;
+}
+
+.pd-y{
+    padding: 100px 0;
+}
+
+.float-left{
+    float: left;
+}
+
+.margin-lr-5{
+    margin: 0 5%;
+}
+
+.width-30{
+    width: 30%;
+}
+
+
+
+
+
+.btn-effect{
+    position: relative;
+}
+
+.btn-effect::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    z-index: -1;
+    background: #2098D1;
+    transition: height .5s;
+   
+}
+
+.btn-effect:hover::before{
+    height: 100%;
+
+   
+}
+
+.overflow-hidden{
+    overflow: hidden;
+}
+
+ .border-radius{
+
+    border-radius:100px 100px 0 100px ;
+}
+
+/* header-section */
+
+.header-section{
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.header-title{
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 540;
+    color: var(--dark-color);
+    margin-bottom: 20px;
+}
+
+.header-desc{
+    color: var(--gray-color);
+    font-size: 18px;
+    line-height: 23px;
+}
+
+
+.mg{
+    margin: 0 5%;
+}
+
+
+
+/* 2-General css style */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Varela Round', sans-serif;
+}
+
+:root{
+    --main-color:#28a9e2;
+    --white-color:#fff;
+    --dark-color:#333333;
+    --gray-color:#999;
+    --dark-gray-color:#878484;
+    --light-gray-color:#f2f3f5;
+    
+}
+
+.clear{
+    clear: both;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: montserrat,sans-serif;
+}
+
+img{
+    vertical-align: middle;
+    border-style: none;
+}

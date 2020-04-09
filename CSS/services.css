@@ -1,0 +1,48 @@
+/* 3.3-section services */
+
+.services{
+    background: var(--light-gray-color);
+    
+
+}
+
+
+
+.services-item{
+    background: var(--white-color);
+    padding: 30px 10px 30px 20px ;
+    border-radius: 50px 50px 0 50px;
+    margin-bottom: 5%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.services-item .icon{
+    color: var(--dark-color);
+    margin:10px 20px;
+}
+
+
+.services-item-title{
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--dark-color);
+    margin: 10px 0;
+}
+
+.services-item-desc{
+    color: var(--gray-color);
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.services-item:hover .icon,
+.services-item:hover .services-item-title,
+.services-item:hover .services-item-desc
+{
+    color: var(--white-color);
+}
+
+
+

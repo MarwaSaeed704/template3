@@ -1,0 +1,69 @@
+/* 3.1-section home */
+
+.home{
+    background: url("../images/background/banner-01.jpg");
+   background-size: cover;
+   height: 100vh;
+   position: relative;
+  
+}
+
+.home-content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    margin: 15px 0;
+}
+
+.home-title{
+    text-transform: capitalize;
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 62px;
+    margin: 15px 0;
+   
+    
+}
+
+.home-desc{
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 30px;
+}
+
+.home-desc-job{
+    font-size: 35px;
+}
+
+.home-button{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.btn{
+    text-transform: capitalize;
+    display: inline-block;
+   padding:14px 20px;
+   font-size: 18px;
+   border-radius: 100px;
+   font-family: inherit;
+   z-index: 1;
+   overflow: hidden;
+}
+
+.btn-white{
+    color: var(--dark-color);
+   background: var(--white-color);
+
+}
+
+.btn-dark{
+    color: var(--white-color);
+    background: var(--dark-color);
+}
+
+
+.btn-white:hover{
+    color: var(--white-color);
+}

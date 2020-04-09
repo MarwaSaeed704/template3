@@ -1,0 +1,92 @@
+
+
+/* section portfolio */
+
+.portfolio{
+    background: var(--light-gray-color);
+}
+
+.portfolio-list{
+    text-align: center;
+    margin-bottom: 50px ;
+
+}
+
+.portfolio-list li{
+    display: inline-block;
+}
+
+.portfolio-list li a{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 12px 40px;
+    background: var(--white-color);
+    color: var(--dark-color);
+    border-radius: 100px 100px 0 100px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+
+
+}
+
+.portfolio-list li a.active{
+    background: var(--main-color);
+    color: var(--white-color);
+}
+
+
+
+.portfolio-item{
+    
+    margin-bottom: 5%;
+    position: relative;
+    
+}
+
+
+
+.portfolio-item img{
+    width: 100%;
+   
+}
+
+.layer-content{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background: rgba(40, 169, 226, 0.80);
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 100px 100px 0 100px;
+    transition: opacity .5s;
+   
+}
+
+.portfolio-item:hover .layer-content{
+    visibility: visible;
+    opacity: 1;
+
+}
+
+.layer-content a{
+    cursor: pointer;
+}
+
+
+.layer-content .icon{
+    position: absolute;
+    
+    color:var(--white-color);
+    background: var(--dark-color);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+
+
+}
+

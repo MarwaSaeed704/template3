@@ -1,0 +1,55 @@
+
+
+/* 3.9-section footer */
+
+.footer{
+    padding: 50px 0;
+    background:  #1c1d21;
+    text-align: center;
+
+}
+
+
+.footer-list li{
+    display: inline-block;
+    margin: 20px 0;
+    
+}
+
+.footer-list li a{
+    color: var(--gray-color);
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.footer-list li a:hover{
+    color:var(--dark-color);
+}
+
+.footer-desc{
+    color: var(--dark-gray-color);
+    text-transform: capitalize;
+    font-size:13px ;
+}
+
+.footer-desc a{
+    color: var(--white-color);
+    font-size: 14px;
+}
+
+.footer-desc a:hover{
+    color: var(--gray-color);
+}
+
+.footer .icon{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: var(--white-color);
+    background: var(--dark-color);
+    padding: 20px;
+    border-radius: 5px;
+    
+   
+}

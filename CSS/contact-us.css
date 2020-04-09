@@ -1,0 +1,53 @@
+/*3.8- section contact-us */
+
+.contact-us{
+    margin: 100px 0 ;
+    background: url("../images/background/1.jpg");
+    height: 100vh;
+}
+
+.contact-us-content{
+    background: var(--light-gray-color);
+    margin-top: 50px;
+    
+    
+}
+
+.contact-us-form , .text-area{
+    width: 50%;
+    padding: 50px 0px 10px 50px;
+
+}
+
+.text-area{
+
+ padding-right: 50px;
+}
+
+input ,textarea{
+    display: block;
+    color: var(--white-color);
+    background: var(--dark-color);
+    padding: 20px;
+    text-transform: capitalize;
+    font-size: 17px; 
+    border: none;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+
+
+textarea{
+   resize: none;
+   height: 220px;
+  
+}
+
+
+.contact-us-content a.btn{
+   
+  margin-bottom: 20px;
+ 
+}
+
